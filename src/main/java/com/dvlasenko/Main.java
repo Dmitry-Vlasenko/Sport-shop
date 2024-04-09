@@ -1,10 +1,11 @@
 package com.dvlasenko;
-import com.dvlasenko.controllers.ShopMainController;
+
+import com.dvlasenko.controllers.ShopController;
 
 
 
 public class Main {
-    private final ShopMainController App = new ShopMainController();
+    private final ShopController App = new ShopController();
 
     public void run() {
         App.shopProcessing();
